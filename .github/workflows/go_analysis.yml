@@ -7,7 +7,7 @@ on:
     branches: ["main"]
 
 env:
-  DOCKER_REGISTRY: ghcr.io/${{ github.repository_owner }}/go-analysis
+  DOCKER_REGISTRY: ghcr.io/${{ github.repository }}
   TEST_BED_URL: "https://www.encodeproject.org/files/ENCFF000PED/@@download/ENCFF000PED.bed.gz"
 
 jobs:
